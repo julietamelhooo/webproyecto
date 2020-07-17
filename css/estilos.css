@@ -1,0 +1,213 @@
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  footer .subscribe-area {
+    background-color: #F2C9D8; }
+  footer .pb-50 {
+    padding-bottom: 0px; }
+  footer .pt-70 {
+    padding-top: 50px;
+    margin-top: 60px; }
+  footer .mb-15 {
+    margin-bottom: 0px; }
+  footer .subscribe-wrapper {
+    overflow: hidden; }
+  footer .mb-15 {
+    margin-bottom: 15px; }
+  footer .subscribe2-wrapper .subscribe-form input {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 280;
+    height: 57px;
+    margin-right: px;
+    padding-left: 35px;
+    width: 70%; }
+  footer .subscribe2-wrapper .subscribe-form button {
+    background: #ffff;
+    border: none;
+    border-radius: 10px;
+    color: #4b5d73;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 18px 36px;
+    transition: all 0.3s ease 0s; }
+  footer .subscribe2-wrapper .subscribe-form button i {
+    font-size: 18px;
+    padding-left: 5px; }
+  footer .footer1 {
+    display: flex;
+    justify-content: center;
+    background-color: #F2C9D8;
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    footer .footer1 ul {
+      margin-left: 40px; }
+  footer .ninfa2020 {
+    text-align: right;
+    padding-right: 20px; }
+
+.lista__pregunta {
+  color: #027368; }
+  .lista__pregunta__respuesta {
+    color: #027368;
+    list-style: circle;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px; }
+
+h1 {
+  color: #027368;
+  font-family: 'Oswald', sans-serif; }
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: #027368; }
+
+h3 {
+  color: #027368;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px; }
+
+h4 {
+  color: #027368;
+  font-family: 'Oswald', sans-serif; }
+
+/* Parrafos */
+p {
+  color: #027368;
+  font-size: 16px;
+  font-family: 'Playfair Display', serif;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: normal; }
+
+/* listas*/
+ul li {
+  color: #027368;
+  list-style: none;
+  font-family: 'Oswald', sans-serif; }
+
+/* fondo del sitio*/
+body {
+  background-color: #B0D9C1; }
+
+#banner {
+  padding: 60px; }
+
+/* fotos producto novedades */
+.novedades {
+  padding-left: 60px;
+  padding-right: 60px; }
+  .novedades__novedades__titulo {
+    width: 200px;
+    margin-left: px; }
+  .novedades #novedades__titulo__items {
+    justify-content: space-around; }
+
+/*seccion CONTACTOS*/
+.transform:focus {
+  width: 200px;
+  height: 30px;
+  font-size: 24px; }
+
+.form-group:focus {
+  font-size: 30px; }
+
+#redes {
+  grid-area: redes;
+  justify-self: center; }
+
+.icono img {
+  width: 60px;
+  margin: 30px; }
+
+/*Info*/
+.infocontenido {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px; }
+
+.respuesta {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px; }
+
+/*BOOTSRAP*/
+/*cobtenido home*/
+.container-fluid {
+  padding: 60px; }
+
+/*barra de navegacion*/
+.navbar {
+  padding: 0px; }
+
+.bg-light {
+  background-color: #F2C9D8 !important; }
+
+.navbar-brand {
+  padding: 0px;
+  padding-left: 60px;
+  margin: 0px; }
+
+.navbar-nav {
+  margin: auto;
+  padding: 0px; }
+
+.form-inline {
+  padding: 0px; }
+
+.fa-shopping-cart {
+  padding-right: 60px; }
+
+.active-pink-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1; }
+
+.carousel-inner {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+  margin-bottom: 20px; }
+
+#productos {
+  justify-content: space-around; }
+
+/*bucle*/
+.aro:nth-child(1) {
+  background-color: purple; }
+
+.aro:nth-child(2) {
+  background-color: aqua; }
+
+.aro:nth-child(3) {
+  background-color: lime; }
+
+.aro:nth-child(4) {
+  background-color: yellow; }
+
+.aro:nth-child(5) {
+  background-color: orange; }
+
+.aro:nth-child(6) {
+  background-color: red; }
+
+/*Creamos el bucle para usar los valores del mapa*/
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--instagram {
+  background-color: #ff8fba; }
+
+.shared {
+  padding-left: 40px; }

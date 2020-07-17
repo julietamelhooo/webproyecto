@@ -1,0 +1,15 @@
+.lista{
+    
+    &__pregunta{
+        color: #027368;
+    
+        &__respuesta{
+            color: #027368;
+            list-style: circle;
+            font-family: 'Playfair Display', serif;;
+            font-size: 16px;
+            }
+     }
+}
+
+

@@ -1,0 +1,202 @@
+@import "footer";
+@import "colores";
+@import "info";
+
+
+
+
+h1 {
+    color: $verdetexto;
+    font-family: 'Oswald', sans-serif;
+  }
+  h2{
+  font-family: 'Playfair Display', serif;
+  color: $verdetexto;
+  }
+  h3 {
+    color:$verdetexto ;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+  }
+  h4{
+  color: $verdetexto;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  
+  /* Parrafos */
+  p {
+    color: #027368;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: normal;
+  }
+  
+  
+  /* listas*/
+  ul li  {
+    color: #027368;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    }
+  
+    
+  /* fondo del sitio*/
+  body {
+    background-color: #B0D9C1;
+  }
+  
+  #banner{
+  padding: 60px;
+  
+  }
+  
+  /* fotos producto novedades */
+  .novedades{
+    padding-left: 60px;
+    padding-right: 60px;
+  
+    &__novedades__titulo{
+    width: 200px;
+    margin-left:px;
+    }
+    #novedades__titulo__items{
+    justify-content: space-around;
+    }
+ }   
+  
+  
+  
+  
+  /*seccion CONTACTOS*/
+  
+  
+  .transform:focus {
+  width: 200px;
+  height:30px ;
+  font-size: 24px;
+  }
+  .form-group:focus{
+  font-size: 30px;
+  }
+  #redes {
+  grid-area: redes;
+  justify-self: center;
+  }
+  
+  .icono img{
+  width: 60px;
+  margin: 30px;
+  }
+  
+  
+  /*Info*/
+  .infocontenido{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  }
+  
+  .respuesta{
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  }
+  
+  
+  /*BOOTSRAP*/
+  /*cobtenido home*/
+  .container-fluid {
+  padding: 60px;
+  }
+  
+  /*barra de navegacion*/
+  .navbar{
+  padding: 0px;
+  }
+  
+  .bg-light{
+    background-color: #F2C9D8!important;
+  }
+  
+  .navbar-brand{
+  padding: 0px;
+  padding-left: 60px;
+  margin: 0px;
+  }
+  .navbar-nav {
+  margin: auto;
+  padding: 0px;
+  }
+  .form-inline{
+  padding: 0px ;
+  }
+  
+  .fa-shopping-cart{
+  padding-right: 60px;
+  }
+  .active-pink-2 input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #f48fb1;
+  box-shadow: 0 1px 0 0 #f48fb1;
+  }
+  
+  
+  
+  .carousel-inner{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  }
+  
+ 
+  #productos{
+  
+  justify-content: space-around;
+  }
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+/*bucle*/
+$arcoiris: purple aqua lime yellow orange red;
+
+@for $algo from 1 through 6 {
+    .aro:nth-child(#{$algo}){
+    background-color: nth($arcoiris, $algo)
+    }
+}
+
+
+
+$redes: ( /*Declaramos nuestro mapa*/
+        twitter: #55acee,
+        facebook:  #3a5795,
+        instagram: #ff8fba
+); 
+/*Creamos el bucle para usar los valores del mapa*/
+@each $red, $color in $redes {
+
+  .btn--#{$red} {
+      background-color: $color;
+  }
+}
+.shared{
+  padding-left: 40px;
+}
+
+
+
+
