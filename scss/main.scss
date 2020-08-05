@@ -72,7 +72,9 @@ h1 {
   
   /*seccion CONTACTOS*/
   
-  
+  #contacto{
+    padding-top: 50px;
+  }
   .transform:focus {
   width: 200px;
   height:30px ;
@@ -93,11 +95,9 @@ h1 {
   
   
   /*Info*/
-  .infocontenido{
-  display: flex;
-  width: 90%;
-  margin: auto;
-  padding-top: 40px;
+
+  #info{
+  padding-top: 50px;
   }
   
   .respuesta{
@@ -108,11 +108,27 @@ h1 {
   
   
   /*BOOTSRAP*/
+  .carousel{
+    margin-bottom: 40px;
+  }
   /*cobtenido home*/
   .container-fluid {
-  padding: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+
   }
-  
+  .cuadro{
+    margin-bottom: 30px;
+  }
+  .img-fluid{
+    margin-bottom: 20px;
+  }
+  #doble{
+    display: flex;
+}
+  #doble1{
+    height: 400px;
+  }
   /*barra de navegacion*/
   .navbar{
   padding: 0px;
@@ -156,9 +172,19 @@ h1 {
   #productos{
   
   justify-content: space-around;
+  text-align: center;
+  margin-top: 40px;
   }
-
-
+.precio {
+  margin-top: 20px;
+}
+.opciones{
+  margin-top: 50px;
+}
+#seccion{
+  margin-top: 50px;
+  text-align: center;
+}
 
 
 
