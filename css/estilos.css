@@ -112,7 +112,8 @@ body {
     width: 200px;
     margin-left: px; }
   .novedades #novedades__titulo__items {
-    justify-content: space-around; }
+    justify-content: space-around;
+    text-align: center; }
 
 /*seccion CONTACTOS*/
 #contacto {
