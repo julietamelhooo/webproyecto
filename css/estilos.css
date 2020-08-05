@@ -101,6 +101,9 @@ body {
 #banner {
   padding: 60px; }
 
+.margen {
+  margin-top: 30px; }
+
 /* fotos producto novedades */
 .novedades {
   padding-left: 60px;
@@ -208,24 +211,8 @@ body {
   margin-top: 50px;
   text-align: center; }
 
-/*bucle*/
-.aro:nth-child(1) {
-  background-color: purple; }
-
-.aro:nth-child(2) {
-  background-color: aqua; }
-
-.aro:nth-child(3) {
-  background-color: lime; }
-
-.aro:nth-child(4) {
-  background-color: yellow; }
-
-.aro:nth-child(5) {
-  background-color: orange; }
-
-.aro:nth-child(6) {
-  background-color: red; }
+.margen1 {
+  margin-top: 60px; }
 
 /*Creamos el bucle para usar los valores del mapa*/
 .btn--twitter {

@@ -52,7 +52,10 @@ h1 {
   padding: 60px;
   
   }
-  
+  .margen{
+    margin-top: 30px;
+    
+  }
   /* fotos producto novedades */
   .novedades{
     padding-left: 60px;
@@ -187,24 +190,17 @@ h1 {
 }
 
 
-
-
-
-
-
-  
-
-
-  
-/*bucle*/
-$arcoiris: purple aqua lime yellow orange red;
-
-@for $algo from 1 through 6 {
-    .aro:nth-child(#{$algo}){
-    background-color: nth($arcoiris, $algo)
-    }
+.margen1{
+  margin-top: 60px;
 }
 
+
+
+
+  
+
+
+ 
 
 
 $redes: ( /*Declaramos nuestro mapa*/
